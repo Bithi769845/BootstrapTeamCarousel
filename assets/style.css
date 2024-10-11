@@ -1,0 +1,164 @@
+.circle-bg {
+    width: 142px;
+    height: 142px;
+    border-radius: 50%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto; 
+    background-color: #E8E8E8; 
+}
+
+.circle-bg img {
+    width: 60px; 
+    height: 60px; 
+}
+
+
+
+.text-dangers{
+color: #FF0000;
+font-size: smaller;
+}
+
+
+
+
+
+
+  @media (max-width: 576px) {
+      .font-size-sm {
+          font-size: 0.70rem;
+          /* Smaller font size for small screens */
+      }
+
+      .bg-sm-secondary {
+          background-color: #6C757D;
+          /* Default background color for small screens */
+      }
+  }
+
+
+  .Success-History   .tab-content {
+    background-color: #ffffff;
+    padding: 5px;
+}
+
+.Success-History  .nav-pills .nav-link {
+    border-radius: 0;
+}
+
+.Success-History  .nav-pills .nav-item .nav-link.active {
+    background-color: #00599b;
+    color: white;
+}
+
+.Success-History  .nav-pills .nav-link {
+    background-color: #d9d9d9;
+    color: black;
+}
+
+
+.Success-History .carousel-control-prev-icon,
+.Success-History .carousel-control-next-icon {
+    background-color: #000;
+}
+
+
+
+
+
+
+.Success-History .carousel-control-next,
+.Success-History .carousel-control-prev {
+    position: relative;
+}
+
+
+
+.Success-History .carousel-control-prev-icon {
+    background-color: #1e2421;
+    opacity: 1;
+}
+
+.Success-History .carousel-control-next-icon {
+    background-color: #01ad4e;
+    opacity: 1;
+}
+
+.Success-History .carousel-control-prev-icon div,
+.Success-History .carousel-control-next-icon div {
+    width: 23px;
+    height: 3px;
+    background-color: #ffffff;
+    margin-top: 14px;
+}
+
+.Success-History .carousel-control-prev-icon div {
+    margin-left: 10px;
+}
+
+.Success-History .carousel-control-next-icon div {
+    margin-right: 10px;
+}
+
+.Success-History button.btn:hover {
+    color: #ffffff !important;
+    background-color: #ffffff !important;
+    border-color: #ffffff !important;
+}
+
+
+        /* Styling for proper alignment */
+        .FAQ-Section .accordion-button {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .FAQ-Section .accordion-button i {
+            /* To ensure the icon is aligned to the left */
+            font-size: 1.25rem;
+        }
+
+        .FAQ-Section .accordion-button::after{
+            width: 0px;
+            background-image: none;
+        }
+
+        .ourTeam   .carousel-control-next,
+     .ourTeam   .carousel-control-prev {
+            position: relative;
+        }
+
+        .ourTeam   .carousel-control-prev-icon,
+        .ourTeam   .carousel-control-next-icon {
+            filter: invert(50%);
+        }
+
+       .ourTeam .card {
+            border: none; /* Remove card border */
+        }
+
+
+
+.Footer-Section .desclaimer {
+    border-right: 2px dashed #fff;
+   
+}
+
+
+.Footer-Section {
+    border-bottom: 2px dashed #fff; 
+    padding-bottom: 0; 
+    margin-bottom: 0; 
+}
+
+
+
+
+        
+        
+        
+        
+       
